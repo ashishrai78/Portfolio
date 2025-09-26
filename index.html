@@ -305,8 +305,10 @@
         }
 
         .about-image img {
-            max-width: 100%;
-            border-radius: 20px;
+            width: 100%;
+            aspect-ratio: 1/1;
+            object-fit: cover; 
+            border-radius: 50%;
             box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s ease;
         }
@@ -936,7 +938,7 @@
                 </div>
             </div>
             <div class="about-image">
-                <img src="dp.jpeg" alt="Ashish Rai" style="border-radius: 100%; object-fit: cover; border: 3px solid #4361EE; box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);">
+                <img src="dp.jpeg" alt="Ashish Rai" style="object-fit: cover; border: 3px solid #4361EE; box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);">
             </div>
         </div>
     </div>
@@ -1248,3 +1250,4 @@
 </body>
 
 </html>
+
